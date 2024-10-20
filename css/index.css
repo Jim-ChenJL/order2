@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1420px;
+    background-color: rgb(255, 192, 192);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header .top_nav a {
+    margin-right: 25px;
+}
+
+header .top_nav a:hover {
+    border-radius: 10px;
+    padding-bottom: 5px;
+    border-top: 4px solid rgb(86, 247, 255);
+    border-bottom: 4px solid rgb(86, 247, 255);
+}
+
+header .top_nav a:active {
+    color: rgb(203, 85, 131);
+}
+
+header .search form {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translateY(-50%);
+}
+
+header .search form input {
+    width: 185px;
+    height: 40px;
+    padding-left: 4px;
+}
+
+header .search form input[type="text"]:focus {
+    background-color: rgba(138, 218, 229, 0.792);
+}
+
+header .search form .search_icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .search form .search_icon:active {
+    background-color: peru;
+}
+
+header .search form .search_icon img {
+    width: 22px;
+    height: 22px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .left_nav {
+    width: 20%;
+    height: 450px;
+    background-color: #675c53;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .left_nav .icon-icon-test10 {
+    font-size: 22px;
+    color: #dbdbda;
+    position: absolute;
+    right: 12px;
+}
+
+main .left_nav a {
+    color: #dbdbda;
+    font-size: 14px;
+    margin-left: 28px;
+}
+
+main .left_nav .same_box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+main .left_nav .same_box:hover a {
+    color: skyblue;
+    font-style: italic;
+}
+
+main .left_nav .same_box:active a {
+    color: rgb(165, 225, 75);
+    font-style: italic;
+}
+
+main .left_nav .same_box:hover .icon-icon-test10 {
+    color: rgb(153, 202, 221);
+}
+
+main .left_nav .same_box:active .icon-icon-test10 {
+    color: rgb(182, 239, 154);
+}
+
+main .banner {
+    width: 80%;
+    height: 450px;
+    overflow: hidden;
+}
+
+main .banner a img {
+    width: 100%;
+    height: 100%;
+}
+
+main .six_box {
+    width: 20%;
+    height: 170px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+main .six_box .same_box {
+    width: 33.333333333%;
+    height: 85px;
+}
+
+main .six_box .same_box a img {
+    width: 100%;
+    height: 85px;
+}
+
+main .three_box {
+    width: 80%;
+    height: 170px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+main .three_box .pic {
+    width: 98.5%;
+    height: 170px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .three_box .pic a {
+    width: 32.3%;
+    height: 100%;
+}
+
+main .three_box .pic a img {
+    width: 100%;
+    height: 100%;
+}
